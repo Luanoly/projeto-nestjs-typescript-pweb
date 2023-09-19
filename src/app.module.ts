@@ -10,13 +10,13 @@ import { DataSource } from 'typeorm';
     TypeOrmModule.forRoot({
       type: 'postgres',
       host: 'dpg-ck4ucpmi9prc73agni90-a.oregon-postgres.render.com',
-      port: 3306,
+      port: 5432,
       username: 'projeto_nestjs_typescript_sql_user',
       password: '1234',
       database: 'projeto_nestjs_typescript_sql',
       entities: [],
       synchronize: true,
-      ssl: true
+      ssl: true,
     })
   ],
   
